@@ -1,6 +1,0 @@
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\bin\Debug\UmnichkataMiLiliTq.exe.config
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\bin\Debug\UmnichkataMiLiliTq.exe
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\bin\Debug\UmnichkataMiLiliTq.pdb
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\obj\Debug\UmnichkataMiLiliTq.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\obj\Debug\UmnichkataMiLiliTq.exe
-D:\Programs\Homework of Lesson 6\UmnichkataMiLiliTq\UmnichkataMiLiliTq\obj\Debug\UmnichkataMiLiliTq.pdb

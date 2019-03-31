@@ -1,7 +1,0 @@
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\bin\Debug\Latin Alphabet.exe.config
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\bin\Debug\Latin Alphabet.exe
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\bin\Debug\Latin Alphabet.pdb
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\obj\Debug\Latin Alphabet.csprojAssemblyReference.cache
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\obj\Debug\Latin Alphabet.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\obj\Debug\Latin Alphabet.exe
-D:\Programs\Homework of Lesson 6\Latin Alphabet\Latin Alphabet\obj\Debug\Latin Alphabet.pdb

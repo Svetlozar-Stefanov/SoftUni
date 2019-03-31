@@ -1,6 +1,0 @@
-D:\Programs\1to 20\1to 20\bin\Debug\1to 20.exe.config
-D:\Programs\1to 20\1to 20\bin\Debug\1to 20.exe
-D:\Programs\1to 20\1to 20\bin\Debug\1to 20.pdb
-D:\Programs\1to 20\1to 20\obj\Debug\1to 20.csproj.CoreCompileInputs.cache
-D:\Programs\1to 20\1to 20\obj\Debug\1to 20.exe
-D:\Programs\1to 20\1to 20\obj\Debug\1to 20.pdb

@@ -1,7 +1,0 @@
-D:\Programs\Expression\Expression\bin\Debug\Expression.exe.config
-D:\Programs\Expression\Expression\bin\Debug\Expression.exe
-D:\Programs\Expression\Expression\bin\Debug\Expression.pdb
-D:\Programs\Expression\Expression\obj\Debug\Expression.csprojResolveAssemblyReference.cache
-D:\Programs\Expression\Expression\obj\Debug\Expression.csproj.CoreCompileInputs.cache
-D:\Programs\Expression\Expression\obj\Debug\Expression.exe
-D:\Programs\Expression\Expression\obj\Debug\Expression.pdb

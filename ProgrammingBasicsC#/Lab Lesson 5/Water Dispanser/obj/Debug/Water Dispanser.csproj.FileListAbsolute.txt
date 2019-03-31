@@ -1,7 +1,0 @@
-D:\Programs\Homework of Lesson 5\Water Dispanser\bin\Debug\Water Dispanser.exe.config
-D:\Programs\Homework of Lesson 5\Water Dispanser\bin\Debug\Water Dispanser.exe
-D:\Programs\Homework of Lesson 5\Water Dispanser\bin\Debug\Water Dispanser.pdb
-D:\Programs\Homework of Lesson 5\Water Dispanser\obj\Debug\Water Dispanser.csprojAssemblyReference.cache
-D:\Programs\Homework of Lesson 5\Water Dispanser\obj\Debug\Water Dispanser.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 5\Water Dispanser\obj\Debug\Water Dispanser.exe
-D:\Programs\Homework of Lesson 5\Water Dispanser\obj\Debug\Water Dispanser.pdb

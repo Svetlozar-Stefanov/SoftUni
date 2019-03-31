@@ -1,7 +1,0 @@
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\bin\Debug\GeometryFigures.exe.config
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\bin\Debug\GeometryFigures.exe
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\bin\Debug\GeometryFigures.pdb
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\obj\Debug\GeometryFigures.csprojResolveAssemblyReference.cache
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\obj\Debug\GeometryFigures.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\obj\Debug\GeometryFigures.exe
-D:\Programs\Homework of Lesson 3\GeometryFigures\GeometryFigures\obj\Debug\GeometryFigures.pdb

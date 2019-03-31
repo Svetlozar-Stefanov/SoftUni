@@ -1,6 +1,0 @@
-D:\Programs\InchesToCantimetres\InchesToCantimetres\bin\Debug\InchesToCantimetres.exe.config
-D:\Programs\InchesToCantimetres\InchesToCantimetres\bin\Debug\InchesToCantimetres.exe
-D:\Programs\InchesToCantimetres\InchesToCantimetres\bin\Debug\InchesToCantimetres.pdb
-D:\Programs\InchesToCantimetres\InchesToCantimetres\obj\Debug\InchesToCantimetres.csproj.CoreCompileInputs.cache
-D:\Programs\InchesToCantimetres\InchesToCantimetres\obj\Debug\InchesToCantimetres.exe
-D:\Programs\InchesToCantimetres\InchesToCantimetres\obj\Debug\InchesToCantimetres.pdb

@@ -1,6 +1,0 @@
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\bin\Debug\Travelling.exe.config
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\bin\Debug\Travelling.exe
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\bin\Debug\Travelling.pdb
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\obj\Debug\Travelling.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\obj\Debug\Travelling.exe
-D:\Programs\Homework of Lesson 7\Travelling\Travelling\obj\Debug\Travelling.pdb

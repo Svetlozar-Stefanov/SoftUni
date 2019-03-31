@@ -1,7 +1,0 @@
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\bin\Debug\Area and Perimeter of a Circle.exe.config
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\bin\Debug\Area and Perimeter of a Circle.exe
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\bin\Debug\Area and Perimeter of a Circle.pdb
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\obj\Debug\Area and Perimeter of a Circle.csprojResolveAssemblyReference.cache
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\obj\Debug\Area and Perimeter of a Circle.csproj.CoreCompileInputs.cache
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\obj\Debug\Area and Perimeter of a Circle.exe
-D:\Programs\Area and Perimeter of a Circle\Area and Perimeter of a Circle\obj\Debug\Area and Perimeter of a Circle.pdb

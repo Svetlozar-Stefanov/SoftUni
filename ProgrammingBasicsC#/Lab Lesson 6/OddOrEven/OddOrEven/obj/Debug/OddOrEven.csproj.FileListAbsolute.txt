@@ -1,7 +1,0 @@
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\bin\Debug\OddOrEven.exe.config
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\bin\Debug\OddOrEven.exe
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\bin\Debug\OddOrEven.pdb
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\obj\Debug\OddOrEven.csprojAssemblyReference.cache
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\obj\Debug\OddOrEven.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\obj\Debug\OddOrEven.exe
-D:\Programs\Homework of Lesson 6\OddOrEven\OddOrEven\obj\Debug\OddOrEven.pdb

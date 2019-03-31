@@ -1,7 +1,0 @@
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\bin\Debug\IdenticalDuos.exe.config
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\bin\Debug\IdenticalDuos.exe
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\bin\Debug\IdenticalDuos.pdb
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\obj\Debug\IdenticalDuos.csprojAssemblyReference.cache
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\obj\Debug\IdenticalDuos.csproj.CoreCompileInputs.cache
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\obj\Debug\IdenticalDuos.exe
-D:\Programs\Homework of Lesson 6\IdenticalDuos\IdenticalDuos\obj\Debug\IdenticalDuos.pdb

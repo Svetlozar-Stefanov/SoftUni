@@ -1,7 +1,0 @@
-D:\Programs\Birthday\Birthday\bin\Debug\Birthday.exe.config
-D:\Programs\Birthday\Birthday\bin\Debug\Birthday.exe
-D:\Programs\Birthday\Birthday\bin\Debug\Birthday.pdb
-D:\Programs\Birthday\Birthday\obj\Debug\Birthday.csprojResolveAssemblyReference.cache
-D:\Programs\Birthday\Birthday\obj\Debug\Birthday.csproj.CoreCompileInputs.cache
-D:\Programs\Birthday\Birthday\obj\Debug\Birthday.exe
-D:\Programs\Birthday\Birthday\obj\Debug\Birthday.pdb

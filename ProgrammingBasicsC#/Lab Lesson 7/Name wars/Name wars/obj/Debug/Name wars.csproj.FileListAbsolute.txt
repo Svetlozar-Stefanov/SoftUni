@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\bin\Debug\Name wars.exe.config
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\bin\Debug\Name wars.exe
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\bin\Debug\Name wars.pdb
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\obj\Debug\Name wars.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\obj\Debug\Name wars.exe
+D:\Programs\Homework of Lesson 7\Name wars\Name wars\obj\Debug\Name wars.pdb

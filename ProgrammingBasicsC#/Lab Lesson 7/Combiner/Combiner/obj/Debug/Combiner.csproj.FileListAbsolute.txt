@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\bin\Debug\Combiner.exe.config
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\bin\Debug\Combiner.exe
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\bin\Debug\Combiner.pdb
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\obj\Debug\Combiner.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\obj\Debug\Combiner.exe
+D:\Programs\Homework of Lesson 7\Combiner\Combiner\obj\Debug\Combiner.pdb

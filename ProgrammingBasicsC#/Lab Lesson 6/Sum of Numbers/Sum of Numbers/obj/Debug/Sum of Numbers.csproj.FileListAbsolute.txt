@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\bin\Debug\Sum of Numbers.exe.config
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\bin\Debug\Sum of Numbers.exe
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\bin\Debug\Sum of Numbers.pdb
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\obj\Debug\Sum of Numbers.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\obj\Debug\Sum of Numbers.exe
+D:\Programs\Homework of Lesson 6\Sum of Numbers\Sum of Numbers\obj\Debug\Sum of Numbers.pdb

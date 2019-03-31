@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 5\Moving\Moving\bin\Debug\Moving.exe.config
+D:\Programs\Homework of Lesson 5\Moving\Moving\bin\Debug\Moving.exe
+D:\Programs\Homework of Lesson 5\Moving\Moving\bin\Debug\Moving.pdb
+D:\Programs\Homework of Lesson 5\Moving\Moving\obj\Debug\Moving.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 5\Moving\Moving\obj\Debug\Moving.exe
+D:\Programs\Homework of Lesson 5\Moving\Moving\obj\Debug\Moving.pdb

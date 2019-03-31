@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\bin\Debug\From N to Smth.exe.config
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\bin\Debug\From N to Smth.exe
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\bin\Debug\From N to Smth.pdb
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\obj\Debug\From N to Smth.csprojAssemblyReference.cache
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\obj\Debug\From N to Smth.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\obj\Debug\From N to Smth.exe
+D:\Programs\Homework of Lesson 7\From N to Smth\From N to Smth\obj\Debug\From N to Smth.pdb

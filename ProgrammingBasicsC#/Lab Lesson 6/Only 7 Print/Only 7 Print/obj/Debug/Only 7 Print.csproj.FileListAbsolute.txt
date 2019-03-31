@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\bin\Debug\Only 7 Print.exe.config
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\bin\Debug\Only 7 Print.exe
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\bin\Debug\Only 7 Print.pdb
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\obj\Debug\Only 7 Print.csprojAssemblyReference.cache
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\obj\Debug\Only 7 Print.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\obj\Debug\Only 7 Print.exe
+D:\Programs\Homework of Lesson 6\Only 7 Print\Only 7 Print\obj\Debug\Only 7 Print.pdb

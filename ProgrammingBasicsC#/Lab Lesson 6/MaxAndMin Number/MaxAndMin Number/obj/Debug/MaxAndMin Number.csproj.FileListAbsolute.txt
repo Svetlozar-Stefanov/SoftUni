@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\bin\Debug\MaxAndMin Number.exe.config
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\bin\Debug\MaxAndMin Number.exe
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\bin\Debug\MaxAndMin Number.pdb
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\obj\Debug\MaxAndMin Number.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\obj\Debug\MaxAndMin Number.exe
+D:\Programs\Homework of Lesson 6\MaxAndMin Number\MaxAndMin Number\obj\Debug\MaxAndMin Number.pdb

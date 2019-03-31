@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\bin\Debug\Left1`nRightSum.exe.config
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\bin\Debug\Left1`nRightSum.exe
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\bin\Debug\Left1`nRightSum.pdb
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\obj\Debug\Left1`nRightSum.csprojAssemblyReference.cache
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\obj\Debug\Left1`nRightSum.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\obj\Debug\Left1`nRightSum.exe
+D:\Programs\Homework of Lesson 6\Left1`nRightSum\Left1`nRightSum\obj\Debug\Left1`nRightSum.pdb

@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\bin\Debug\CityComissions.exe.config
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\bin\Debug\CityComissions.exe
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\bin\Debug\CityComissions.pdb
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\obj\Debug\CityComissions.csprojResolveAssemblyReference.cache
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\obj\Debug\CityComissions.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\obj\Debug\CityComissions.exe
+D:\Programs\Homework of Lesson 4\CityComissions\CityComissions\obj\Debug\CityComissions.pdb

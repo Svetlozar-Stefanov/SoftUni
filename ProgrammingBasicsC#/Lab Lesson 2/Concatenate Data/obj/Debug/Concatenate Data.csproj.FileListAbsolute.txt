@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 2\Concatenate Data\bin\Debug\Concatenate Data.exe.config
+D:\Programs\Homework of Lesson 2\Concatenate Data\bin\Debug\Concatenate Data.exe
+D:\Programs\Homework of Lesson 2\Concatenate Data\bin\Debug\Concatenate Data.pdb
+D:\Programs\Homework of Lesson 2\Concatenate Data\obj\Debug\Concatenate Data.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 2\Concatenate Data\obj\Debug\Concatenate Data.exe
+D:\Programs\Homework of Lesson 2\Concatenate Data\obj\Debug\Concatenate Data.pdb

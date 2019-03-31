@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 7\Building\Building\bin\Debug\Building.exe.config
+D:\Programs\Homework of Lesson 7\Building\Building\bin\Debug\Building.exe
+D:\Programs\Homework of Lesson 7\Building\Building\bin\Debug\Building.pdb
+D:\Programs\Homework of Lesson 7\Building\Building\obj\Debug\Building.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\Building\Building\obj\Debug\Building.exe
+D:\Programs\Homework of Lesson 7\Building\Building\obj\Debug\Building.pdb

@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\bin\Debug\TrapezoidArea.exe.config
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\bin\Debug\TrapezoidArea.exe
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\bin\Debug\TrapezoidArea.pdb
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\obj\Debug\TrapezoidArea.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\obj\Debug\TrapezoidArea.exe
+D:\Programs\Homework of Lesson 2\TrapezoidArea\TrapezoidArea\obj\Debug\TrapezoidArea.pdb

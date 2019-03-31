@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\bin\Debug\RowOfChars.exe.config
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\bin\Debug\RowOfChars.exe
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\bin\Debug\RowOfChars.pdb
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\obj\Debug\RowOfChars.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\obj\Debug\RowOfChars.exe
+D:\Programs\Homework of Lesson 6\RowOfChars\RowOfChars\obj\Debug\RowOfChars.pdb

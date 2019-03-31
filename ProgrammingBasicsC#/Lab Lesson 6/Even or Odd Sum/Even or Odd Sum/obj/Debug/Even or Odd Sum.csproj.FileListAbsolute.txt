@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\bin\Debug\Even or Odd Sum.exe.config
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\bin\Debug\Even or Odd Sum.exe
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\bin\Debug\Even or Odd Sum.pdb
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\obj\Debug\Even or Odd Sum.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\obj\Debug\Even or Odd Sum.exe
+D:\Programs\Homework of Lesson 6\Even or Odd Sum\Even or Odd Sum\obj\Debug\Even or Odd Sum.pdb

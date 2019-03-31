@@ -1,0 +1,6 @@
+D:\Programs\AreaOfSquare\AreaOfSquare\bin\Debug\AreaOfSquare.exe.config
+D:\Programs\AreaOfSquare\AreaOfSquare\bin\Debug\AreaOfSquare.exe
+D:\Programs\AreaOfSquare\AreaOfSquare\bin\Debug\AreaOfSquare.pdb
+D:\Programs\AreaOfSquare\AreaOfSquare\obj\Debug\AreaOfSquare.csproj.CoreCompileInputs.cache
+D:\Programs\AreaOfSquare\AreaOfSquare\obj\Debug\AreaOfSquare.exe
+D:\Programs\AreaOfSquare\AreaOfSquare\obj\Debug\AreaOfSquare.pdb

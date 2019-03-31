@@ -1,0 +1,6 @@
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\bin\Debug\Magic Number.exe.config
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\bin\Debug\Magic Number.exe
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\bin\Debug\Magic Number.pdb
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\obj\Debug\Magic Number.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\obj\Debug\Magic Number.exe
+D:\Programs\Homework of Lesson 7\Magic Number\Magic Number\obj\Debug\Magic Number.pdb

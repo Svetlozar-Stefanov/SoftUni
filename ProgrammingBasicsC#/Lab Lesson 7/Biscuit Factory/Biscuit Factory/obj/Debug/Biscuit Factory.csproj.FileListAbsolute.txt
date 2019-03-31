@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\bin\Debug\Biscuit Factory.exe.config
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\bin\Debug\Biscuit Factory.exe
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\bin\Debug\Biscuit Factory.pdb
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\obj\Debug\Biscuit Factory.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\obj\Debug\Biscuit Factory.exe
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\obj\Debug\Biscuit Factory.pdb
+D:\Programs\Homework of Lesson 7\Biscuit Factory\Biscuit Factory\obj\Debug\Biscuit Factory.csprojAssemblyReference.cache

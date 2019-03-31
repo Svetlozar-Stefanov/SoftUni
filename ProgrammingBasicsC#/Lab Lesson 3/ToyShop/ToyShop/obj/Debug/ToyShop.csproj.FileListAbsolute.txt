@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\bin\Debug\ToyShop.exe.config
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\bin\Debug\ToyShop.exe
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\bin\Debug\ToyShop.pdb
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\obj\Debug\ToyShop.csprojResolveAssemblyReference.cache
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\obj\Debug\ToyShop.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\obj\Debug\ToyShop.exe
+D:\Programs\Homework of Lesson 3\ToyShop\ToyShop\obj\Debug\ToyShop.pdb

@@ -1,0 +1,7 @@
+D:\Programs\Homework of Lesson 2\Greetings\bin\Debug\Greetings.exe.config
+D:\Programs\Homework of Lesson 2\Greetings\bin\Debug\Greetings.exe
+D:\Programs\Homework of Lesson 2\Greetings\bin\Debug\Greetings.pdb
+D:\Programs\Homework of Lesson 2\Greetings\obj\Debug\Greetings.csprojResolveAssemblyReference.cache
+D:\Programs\Homework of Lesson 2\Greetings\obj\Debug\Greetings.csproj.CoreCompileInputs.cache
+D:\Programs\Homework of Lesson 2\Greetings\obj\Debug\Greetings.exe
+D:\Programs\Homework of Lesson 2\Greetings\obj\Debug\Greetings.pdb

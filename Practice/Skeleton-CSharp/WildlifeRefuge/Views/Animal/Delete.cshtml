@@ -1,0 +1,51 @@
+﻿@model Animal
+
+<form class="animal-create" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <div class="create-header">
+        Remove Animal
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Kind</div>
+        <input type="text" class="create-animal-item-content" name="Kind" value=@Model.Kind disabled />
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Chip Number</div>
+        <input type="number" min="1" step="1" rows="3" class="create-animal-item-content" name="ChipNumber" value=@Model.ChipNumber disabled />
+    </div>
+
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Gender</div>
+
+        @if (Model.Gender == "Male")
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Male" id="male" checked disabled>
+                    <label class="radio-label" for="male">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Female" id="female" disabled>
+                    <label class="radio-label" for="female">Female</label>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Male" id="male2" disabled>
+                    <label class="radio-label" for="male2">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Female" id="female2" checked disabled>
+                    <label class="radio-label" for="female2">Female</label>
+                </div>
+            </div>
+        }
+    </div>
+    
+    <div class="create-button-holder">
+        <button type="submit" class="button">Remove Animal</button>
+        <a type="button" asp-controller="Animal" asp-action="Index" class="button">Back</a>
+    </div>
+</form>

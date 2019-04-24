@@ -1,0 +1,30 @@
+﻿<form method="post" class="animal-create" asp-action="Create">
+    <div class="create-header">
+        Register a New Animal
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Kind</div>
+        <input type="text" class="create-animal-item-content" name="Kind" required />
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Chip Number</div>
+        <input type="number" min="1" step="1" rows="3" class="create-animal-item-content" name="ChipNumber" required />
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Gender</div>
+        <div class="gender-select">
+            <div class="radio-div">
+                <input class="radio-input" type="radio" name="Gender" value="Male" id="male" checked>
+                <label class="radio-label" for="male">Male</label>
+            </div>
+            <div class="radio-div">
+                <input class="radio-input" type="radio" name="Gender" value="Female" id="female">
+                <label class="radio-label" for="female">Female</label>
+            </div>
+        </div>
+    </div>
+    <div class="create-button-holder">
+        <button type="submit" class="button">Register Animal</button>
+        <a type="button" asp-action="Index" asp-controller="Animal" class="button">Back</a>
+    </div>
+</form>

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input, select, button, input[type="button"], button[type="submit"], option, textarea {
+    font-family: 'Just Another Hand', cursive;
+
+}
+
+body {
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*color: #FFFFFF;*/
+    /*background: linear-gradient(rgba(8, 93, 171, .4), rgba(8, 93, 171, .1)), url("../everest.png") no-repeat center;*/
+    background: url("../images/dawn-sunset-sunrise-hill.jpg");
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    background: rgba(17, 8, 1, .4);
+    padding: 22px;
+    border-radius: 4px;
+}
+
+.button {
+    background: rgba(230, 149, 84, .8);
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #F0F5FC;
+}
+
+.button:hover {
+    background: #E69554;
+    border: 2px solid #E69554;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #F0F5FC;
+    font-weight: bold;
+}
+
+.animal-button {
+    border: 3px solid #F0F5FC;
+    display: inline-block;
+    cursor: pointer;
+    color: #F0F5FC;
+    font-size: 18px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.animal-button:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 3% auto;
+}
+
+.wrapper > * {
+    display: block;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.wrapper .button-holder a[type="button"],
+.wrapper .button-holder button {
+    display: block;
+    width: 27%;
+    margin: auto;
+    padding: 1.5% 1.5%;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.button-holder {
+    margin: 2% auto;
+}
+
+.wrapper .button-holder a[type="button"]:hover,
+.wrapper .button-holder button:hover {
+    cursor: pointer;
+    color: #F0F0F0;
+}
+
+.wrapper .main .button-holder a[type="button"]:hover,
+.wrapper .button-holder button:focus {
+    outline: none;
+}
+
+.content {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wrapper .content {
+    display: block;
+    width: 95%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.content .header {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid white;
+}
+
+.main .animal {
+    color: white;
+    font-weight: 300;
+
+}
+
+.wrapper .content .header,
+.wrapper .content .main {
+    display: block;
+    width: 100%;
+    background-color: rgba(17, 8, 1, .9);
+}
+
+.wrapper .content .header > * {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.wrapper .content .header .animal-label {
+    width: 20%;
+}
+
+.wrapper .content .header .actions-label {
+    width: 20%;
+    text-align: center;
+}
+
+.wrapper .content .main .animal {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .content .main .animal > * {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.wrapper .content .main .animal .animal-title {
+    width: 20%;
+}
+
+.wrapper .content .main .animal .animal-item {
+    width: 20%;
+}
+
+.wrapper .content .main .animal .animal-actions {
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+﻿@model List<Animal>
+
+<h1>Wildlife Refuge Database</h1>
+
+<div class="button-holder">
+    <a type="button" asp-controller="Animal" asp-action="Create" class="button">Register a New Animal</a>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="animal-label">Chip Number</div>
+        <div class="animal-label">Kind</div>
+        <div class="animal-label">Gender</div>
+        <div class="actions-label">Actions</div>
+    </div>
+    <div class="main">
+        @foreach (var item in Model)
+        {
+            <div class="animal">
+                <div class="animal-item">
+                    @item.ChipNumber
+                </div>
+                <div class="animal-item">
+                    @item.Kind
+                </div>
+                <div class="animal-item">
+                    @item.Gender
+                </div>
+                <div class="animal-item animal-actions">
+                    <a type="button" asp-action="Edit" asp-route-id="@item.Id" class="animal-button">Edit</a>
+                    <a type="button" asp-action="Delete" asp-route-id="@item.Id" class="animal-button">Remove</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

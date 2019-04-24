@@ -1,0 +1,51 @@
+﻿@model Animal
+
+<form class="animal-create" asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="create-header">
+        Edit Animal Data
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Kind</div>
+        <input type="text" class="create-animal-item-content" name="Kind" value=@Model.Kind required />
+    </div>
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Chip Number</div>
+        <input type="number" min="1" step="1" rows="3" class="create-animal-item-content" name="ChipNumber" value=@Model.ChipNumber required />
+    </div>
+
+    <div class="create-animal-item">
+        <div class="create-animal-item-label">Gender</div>
+
+        @if (Model.Gender == "Male")
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Male" id="male" checked>
+                    <label class="radio-label" for="male">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Female" id="female">
+                    <label class="radio-label" for="female">Female</label>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Male" id="male2">
+                    <label class="radio-label" for="male2">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="Gender" value="Female" id="female2" checked>
+                    <label class="radio-label" for="female2">Female</label>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="create-button-holder">
+        <button type="submit" class="button">Edit Animal Data</button>
+        <a type="button" asp-controller="Animal" asp-action="Index" class="button">Back</a>
+    </div>
+</form>

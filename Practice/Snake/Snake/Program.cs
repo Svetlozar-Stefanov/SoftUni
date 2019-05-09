@@ -173,7 +173,7 @@ namespace Snake
             Console.CursorVisible = false;
             Direction = 0;
             Food = new Position(Random.Next(0, Console.WindowWidth), Random.Next(0, Console.WindowHeight));
-            List<Position> Obstacles = new List<Position>();
+            Obstacles = new List<Position>();
             Score = 0;
             speed = 10;
             symbol = '>';

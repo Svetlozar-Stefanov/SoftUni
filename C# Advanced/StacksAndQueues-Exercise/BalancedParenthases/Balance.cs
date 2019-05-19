@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BalancedParenthases
 {
@@ -7,43 +8,35 @@ namespace BalancedParenthases
     {
         static void Main(string[] args)
         {
-            string parenthases = Console.ReadLine();
-            if (parenthases == "()(((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}))))")
-            {
-                Console.WriteLine("YES");
-                return;
-            }
-            List<char> symbols = new List<char>(parenthases.ToCharArray());
+            char[] parenthases = Console.ReadLine().ToCharArray();
+            Stack<char> stack = new Stack<char>();
+            char[] oppenings = { '(', '{', '[' };
 
             bool balanced = true;
-            if (symbols.Count == 0)
+            foreach (var item in parenthases)
             {
-                balanced = false;
-            }
-            for (int i = 0; i < symbols.Count / 2; i++)
-            {
-                if (symbols.Count % 2 != 0)
+                if (oppenings.Contains(item))
                 {
-                    balanced = false;
-                    break;
+                    stack.Push(item);
                 }
-                char symbol1 = symbols[i];
-                char symbol2 = symbols[symbols.Count - i - 1];
-
-                if (symbol1 == '{' && symbol2 != '}')
+                else
                 {
-                    balanced = false;
-                    break;
-                }
-                if (symbol1 == '(' && symbol2 != ')')
-                {
-                    balanced = false;
-                    break;
-                }
-                if (symbol1 == '[' && symbol2 != ']')
-                {
-                    balanced = false;
-                    break;
+                    char oppening = stack.Pop();
+                    if (item == ')' && stack.Pop() != '(')
+                    {
+                        balanced = false;
+                        break;
+                    }
+                    if (item == '}' && stack.Pop() != '{')
+                    {
+                        balanced = false;
+                        break;
+                    }
+                    if (item == ']' && stack.Pop() != '[')
+                    {
+                        balanced = false;
+                        break;
+                    }
                 }
             }
             if (balanced)

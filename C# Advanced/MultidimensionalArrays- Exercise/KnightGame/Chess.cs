@@ -34,21 +34,21 @@
                         if (currentSymbol == 'K')
                         {
                             int hits = 0;
-                            int jump = 0;
-                            for (int i = 2; i <= 3; i++)
+                            int jump = 2;
+                            for (int i = 1; i <= 2; i++)
                             {
                                 if (row + i >= 0 && row + i < matrix.GetLength(0))
                                 {
-                                    if (col + i - jump >= 0 && col + i - jump < matrix.GetLength(1))
+                                    if (col + jump >= 0 && col + jump < matrix.GetLength(1))
                                     {
-                                        if (matrix[row + i, col + i - jump] == 'K')
+                                        if (matrix[row + i, col + jump] == 'K')
                                         {
                                             hits++;
                                         }
                                     }
-                                    if (col - i - jump >= 0 && col - i - jump < matrix.GetLength(1))
+                                    if (col - jump >= 0 && col - jump < matrix.GetLength(1))
                                     {
-                                        if (matrix[row + i, col - i - jump] == 'K')
+                                        if (matrix[row + i, col - jump] == 'K')
                                         {
                                             hits++;
                                         }
@@ -56,22 +56,56 @@
                                 }
                                 if (row - i >= 0 && row - i < matrix.GetLength(0))
                                 {
-                                    if (col + i - jump >= 0 && col + i - jump < matrix.GetLength(1))
+                                    if (col + jump >= 0 && col + jump < matrix.GetLength(1))
                                     {
-                                        if (matrix[row - i, col + i - jump] == 'K')
+                                        if (matrix[row - i, col + jump] == 'K')
                                         {
                                             hits++;
                                         }
                                     }
-                                    if (col - i - jump >= 0 && col - i - jump < matrix.GetLength(1))
+                                    if (col - jump >= 0 && col - jump < matrix.GetLength(1))
                                     {
-                                        if (matrix[row - i, col - i - jump] == 'K')
+                                        if (matrix[row - i, col - jump] == 'K')
                                         {
                                             hits++;
                                         }
                                     }
                                 }
-                                jump += 2;
+                                if (col + i >= 0 && col + i < matrix.GetLength(1))
+                                {
+                                    if (row + jump >= 0 && row + jump < matrix.GetLength(0))
+                                    {
+                                        if (matrix[row + jump,col + i] == 'K')
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                    if (row - jump >= 0 && row - jump < matrix.GetLength(0))
+                                    {
+                                        if (matrix[row - jump, col + i] == 'K')
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                }
+                                if (col - i >= 0 && col - i < matrix.GetLength(1))
+                                {
+                                    if (row + jump >= 0 && row + jump < matrix.GetLength(0))
+                                    {
+                                        if (matrix[row + jump, col - i] == 'K')
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                    if (row - jump >= 0 && row - jump < matrix.GetLength(0))
+                                    {
+                                        if (matrix[row - jump, col - i] == 'K')
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                }
+                                jump--;
                             }
 
                             if (worstKnight < hits)

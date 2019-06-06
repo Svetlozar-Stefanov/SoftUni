@@ -8,20 +8,19 @@
     {
         public static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine()
+            int[] numbers = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
-                .ToList();
+                .ToArray();
 
-            List<int> even = numbers.Where(n => n % 2 == 0)
-                .OrderBy(n => n)
-                .ToList();
+            Func<int, int, int> orderEvenOdd = (x, y) =>
+              (x % 2 == 0 && y % 2 != 0) ? -1 :
+              (x % 2 != 0 && y % 2 == 0) ? 1 :
+              (x > y) ? 1 : (x < y) ? -1 : 0;
 
-            List<int> odd = numbers.Where(n => n % 2 != 0)
-                .OrderBy(n => n)
-                .ToList();
-            
-            Console.Write($"{string.Join(" ", even)} {string.Join(" ", odd)}");
+            Array.Sort(numbers, (x,y) => orderEvenOdd(x,y));
+
+            Console.WriteLine(string.Join(" ",numbers));
         }
     }
 }

@@ -1,18 +1,19 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CustomDoubledList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T> : IEnumerable<T>
     {
         private class ListNode
         {
-            public int Value { get; set; }
+            public T Value { get; set; }
             public ListNode NextNode { get; set; }
             public ListNode PreviousNode { get; set; }
 
-            public ListNode(int value)
+            public ListNode(T value)
             {
                 Value = value;
             }
@@ -21,7 +22,7 @@ namespace CustomDoubledList
         private ListNode tail;
         public int Count { get;private set; }
 
-        public void AddFirst(int value)
+        public void AddFirst(T value)
         {
             if (Count == 0)
             {
@@ -37,7 +38,7 @@ namespace CustomDoubledList
             Count++;
         }
 
-        public void AddLast(int value)
+        public void AddLast(T value)
         {
             if (Count == 0)
             {
@@ -52,11 +53,12 @@ namespace CustomDoubledList
             }
             Count++;
         }
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             CheckIfEmpty();
-            int element = head.Value;
-            head = head.NextNode;
+            T element = head.Value;
+            ListNode currentHead = head;
+            head = currentHead.NextNode;
             if (head != null)
             {
                 head.PreviousNode = null;
@@ -68,12 +70,13 @@ namespace CustomDoubledList
             Count--;
             return element;
         }
-        public int RemoveLast()
+        public T RemoveLast()
         {
             CheckIfEmpty();
-            int element = tail.Value;
+            T element = tail.Value;
+            ListNode currentTail = tail;
+            tail = currentTail.PreviousNode;
 
-            tail = tail.PreviousNode;
             if (tail != null)
             {
                 tail.NextNode = null;
@@ -86,7 +89,7 @@ namespace CustomDoubledList
             return element;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             var currentHead = head;
             while (currentHead != null)
@@ -96,9 +99,9 @@ namespace CustomDoubledList
             }
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         {
-            int[] arr = new int[Count];
+            T[] arr = new T[Count];
             int counter = 0;
             var cuurentNode = head;
             while (cuurentNode != null)
@@ -114,6 +117,26 @@ namespace CustomDoubledList
             if (Count == 0)
             {
                 throw new InvalidOperationException();
+            }
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return IternalNumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+
+        IEnumerator<T> IternalNumerator()
+        {
+            ListNode currentHead = head;
+            while (currentHead != null)
+            {
+                yield return currentHead.Value;
+                currentHead = currentHead.NextNode;
             }
         }
     }

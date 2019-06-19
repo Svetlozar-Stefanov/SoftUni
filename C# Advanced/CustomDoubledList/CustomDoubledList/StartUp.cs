@@ -6,20 +6,17 @@ namespace CustomDoubledList
     {
         static void Main(string[] args)
         {
-            DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+            DoublyLinkedList<string> doublyLinkedList = new DoublyLinkedList<string>();
 
-            doublyLinkedList.AddFirst(1);
-            doublyLinkedList.AddFirst(2);
-            doublyLinkedList.AddLast(3);
-            doublyLinkedList.AddLast(4);
-            doublyLinkedList.RemoveFirst();
-            doublyLinkedList.RemoveLast();
+            doublyLinkedList.AddFirst("obicham");
+            doublyLinkedList.AddFirst("az");
+            doublyLinkedList.AddLast("luti");
+            doublyLinkedList.AddLast("chushki");
 
-            doublyLinkedList.ForEach(Console.WriteLine);
-            Console.WriteLine(string.Join(" ",doublyLinkedList.ToArray()));
-
-            doublyLinkedList.RemoveFirst();
-            doublyLinkedList.RemoveLast();
+            foreach (var item in doublyLinkedList)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

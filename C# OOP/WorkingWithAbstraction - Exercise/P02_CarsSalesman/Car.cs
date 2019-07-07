@@ -23,12 +23,12 @@ namespace P02_CarsSalesman
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0}:\n", Model);
-            sb.Append(Engine.ToString());
-            sb.AppendFormat("{0}Weight: {1}\n", offset, Weight == -1 ? "n/a" : Weight.ToString());
-            sb.AppendFormat("{0}Color: {1}", offset, Color);
+            sb.AppendLine($"{Model}:");
+            sb.AppendLine(Engine.ToString());
+            sb.AppendLine($"{offset}Weight: {(Weight == -1 ? "n/a" : Weight.ToString())}");
+            sb.AppendLine($"{offset}Color: {Color}");
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
     }
 }

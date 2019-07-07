@@ -8,10 +8,6 @@ namespace P02_CarsSalesman
     {
         private const string offset = "  ";
 
-        public string Model { get; set; }
-        public int Power { get; set; }
-        public int Displacement { get; set; }
-        public string Efficiency { get; set; }
         public Engine(string model, int power, int displacement = -1, string efficiency = "n/a")
         {
             Model = model;
@@ -20,17 +16,20 @@ namespace P02_CarsSalesman
             Efficiency = efficiency;
         }
 
-
+        public string Model { get; set; }
+        public int Power { get; set; }
+        public int Displacement { get; set; }
+        public string Efficiency { get; set; }
 
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0}{1}:\n", offset, Model);
-            sb.AppendFormat("{0}{0}Power: {1}\n", offset, Power);
-            sb.AppendFormat("{0}{0}Displacement: {1}\n", offset, Displacement == -1 ? "n/a" : Displacement.ToString());
-            sb.AppendFormat("{0}{0}Efficiency: {1}\n", offset, Efficiency);
+            sb.AppendLine($"{offset}{Model}:");
+            sb.AppendLine($"{offset}{offset}Power: {Power}");
+            sb.AppendLine($"{offset}{offset}Displacement: {(Displacement == -1 ? "n/a" : Displacement.ToString())}");
+            sb.AppendLine($"{offset}{offset}Efficiency: {Efficiency}");
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
     }
 

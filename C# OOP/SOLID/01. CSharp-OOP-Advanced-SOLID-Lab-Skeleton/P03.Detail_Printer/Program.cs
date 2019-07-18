@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace P03.DetailPrinter
+﻿namespace P03.DetailPrinter
 {
     class Program
     {

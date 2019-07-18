@@ -1,25 +1,25 @@
-﻿using System;
+﻿using P02.Graphic_Editor.Contracts;
+using P02.Graphic_Editor.Strategy;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace P02.Graphic_Editor
 {
     public class GraphicEditor
     {
+        private List<IDrawingStrategy> strategies = new List<IDrawingStrategy>
+        {
+            new RectangleDrawer(),
+            new SquareDrawer(),
+            new CircleDrawer()
+        };
+
         public void DrawShape(IShape shape)
         {
-            if (shape is Circle)
-            {
-                Console.WriteLine("I'm Circle");
-            }
-            else if (shape is Rectangle)
-            {
-                Console.WriteLine("I'm Recangle");
-            }
-            else if (shape is Square)
-            {
-                Console.WriteLine("I'm Square");
-            }
+            IDrawingStrategy drawingStrategy = strategies
+                .FirstOrDefault(s => s.IsMatch(shape));
+
+            drawingStrategy.Draw();
         }
     }
 }

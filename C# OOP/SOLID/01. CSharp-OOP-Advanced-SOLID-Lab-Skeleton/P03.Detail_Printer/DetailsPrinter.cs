@@ -1,42 +1,23 @@
-﻿using System;
+﻿using P03.Detail_Printer;
+using System;
 using System.Collections.Generic;
-using System.Text;
-
 namespace P03.DetailPrinter
 {
     public class DetailsPrinter
     {
-        private IList<Employee> employees;
+        private IList<IWorker> employees;
 
-        public DetailsPrinter(IList<Employee> employees)
+        public DetailsPrinter(IList<IWorker> employees)
         {
             this.employees = employees;
         }
 
         public void PrintDetails()
         {
-            foreach (Employee employee in this.employees)
+            foreach (var employee in employees)
             {
-                if (employee is Manager)
-                {
-                    this.PrintManager((Manager)employee);
-                }
-                else
-                {
-                    this.PrintEmployee(employee);
-                }
+                Console.WriteLine(employee.GetDetails());
             }
-        }
-
-        private void PrintEmployee(Employee employee)
-        {
-            Console.WriteLine(employee.Name);
-        }
-
-        private void PrintManager(Manager manager)
-        {
-            Console.WriteLine(manager.Name);
-            Console.WriteLine(string.Join(Environment.NewLine, manager.Documents));
         }
     }
 }

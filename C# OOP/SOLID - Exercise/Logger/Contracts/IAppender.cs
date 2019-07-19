@@ -8,8 +8,6 @@ namespace Logger.Contracts
 
         ReportLevel ReportLevel { get; set; }
 
-        int MessagesCount { get; }
-
         void AppendMessage(IMessage message);
     }
 }

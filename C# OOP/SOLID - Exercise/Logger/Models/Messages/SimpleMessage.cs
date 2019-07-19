@@ -1,18 +1,19 @@
 ﻿using Logger.Contracts;
 using Logger.Models.Enums;
+using System;
 
 namespace Logger.Models.Messages
 {
     public class SimpleMessage : IMessage
     {
-        public SimpleMessage(string date, ReportLevel reportLevel, string message)
+        public SimpleMessage(DateTime date, ReportLevel reportLevel, string message)
         {
             Date = date;
             ReportLevel = reportLevel;
             Message = message;
         }
 
-        public string Date { get; private set; }
+        public DateTime Date { get; private set; }
 
         public ReportLevel ReportLevel { get; private set; }
 

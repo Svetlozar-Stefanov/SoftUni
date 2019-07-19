@@ -2,6 +2,6 @@
 {
     public interface ILayout
     {
-        string MessageFormat { get; }
+        string Format { get; }
     }
 }

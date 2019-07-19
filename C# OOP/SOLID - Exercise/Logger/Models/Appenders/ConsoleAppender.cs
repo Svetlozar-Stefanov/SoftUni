@@ -6,19 +6,11 @@ namespace Logger.Models.Appenders
 {
     public class ConsoleAppender : IAppender
     {
-        public ConsoleAppender()
-        {
+        private int messagesCount = 0;
 
-        }
-        public ConsoleAppender(ILayout layout)
+        public ConsoleAppender(ILayout layout, ReportLevel reportLevel = ReportLevel.INFO)
         {
             Layout = layout;
-            ReportLevel = ReportLevel.INFO;
-        }
-
-        public ConsoleAppender(ILayout layout, ReportLevel reportLevel)
-            : this(layout)
-        {
             ReportLevel = reportLevel;
         }
 
@@ -26,20 +18,15 @@ namespace Logger.Models.Appenders
 
         public ReportLevel ReportLevel { get; set; }
 
-        public int MessagesCount { get; private set; }
-
         public void AppendMessage(IMessage message)
         {
-            if ((int)ReportLevel <= (int)message.ReportLevel)
-            {
-                Console.WriteLine(string.Format(Layout.MessageFormat, message.Date, message.ReportLevel, message.Message));
-                MessagesCount++;
-            }
+            Console.WriteLine(string.Format(Layout.Format, message.Date, message.ReportLevel, message.Message));
+            messagesCount++;
         }
 
         public override string ToString()
         {
-            return $"Appender type: {GetType().Name}, Layout type: {Layout.GetType().Name}, Report level: {ReportLevel.ToString()}, Messages appended: {MessagesCount}";
+            return $"Appender type: {GetType().Name}, Layout type: {Layout.GetType().Name}, Report level: {ReportLevel.ToString()}, Messages appended: {messagesCount}";
         }
     }
 }

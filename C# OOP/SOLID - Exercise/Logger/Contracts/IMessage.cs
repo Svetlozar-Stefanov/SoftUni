@@ -1,10 +1,12 @@
-﻿using Logger.Models.Enums;
+﻿using System;
+
+using Logger.Models.Enums;
 
 namespace Logger.Contracts
 {
     public interface IMessage
     {
-        string Date { get; }
+        DateTime Date { get; }
 
         ReportLevel ReportLevel { get; }
 

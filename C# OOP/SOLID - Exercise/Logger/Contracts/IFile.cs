@@ -4,9 +4,9 @@ namespace Logger.Contracts
 {
     public interface IFile
     {
-        StringBuilder StringBuilder { get; }
+        string Path { get; }
 
-        int Size { get; }
+        ulong Size { get; }
 
         void Write(IMessage message, string layout);
     }

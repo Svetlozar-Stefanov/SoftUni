@@ -7,7 +7,7 @@ namespace Logger.Contracts
 {
     public interface ILogger
     {
-        ICollection<IAppender> Appenders { get; }
+        IReadOnlyCollection<IAppender> Appenders { get; }
 
         void Log(IMessage message);
     }

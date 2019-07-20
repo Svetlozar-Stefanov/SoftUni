@@ -1,6 +1,8 @@
 ﻿using Logger.Contracts;
 using Logger.Models.IOManagement;
+using Logger.Models.Layouts;
 using System;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -12,7 +14,7 @@ namespace Logger.Models.Files
         private string currentPath;
         private IIOManager iOManager;
 
-        public LogFile(string currentDirectory = "\\logs\\", string currentFile = "log.txt")
+        public LogFile(string currentDirectory = "logs", string currentFile = "log.txt")
         {
             iOManager = new IOManager(currentDirectory, currentFile);
 
@@ -35,11 +37,16 @@ namespace Logger.Models.Files
 
         public string Path => currentPath;
 
-        ulong IFile.Size => throw new System.NotImplementedException();
-
-        public void Write(IMessage message , string layout)
+        public string Write(IMessage message , string layout)
         {
-            
+            DateLayout dateLayout = new DateLayout();
+
+            string formattedMessage = string.Format(layout,
+                message.Date.ToString(dateLayout.Format, CultureInfo.InvariantCulture),
+                message.ReportLevel.ToString(),
+                message);
+
+            return formattedMessage;
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Logger.Contracts;
 using Logger.Models.Enums;
+using Logger.Models.Layouts;
 using System;
+using System.Globalization;
 
 namespace Logger.Models.Appenders
 {
@@ -8,20 +10,34 @@ namespace Logger.Models.Appenders
     {
         private int messagesCount = 0;
 
-        public ConsoleAppender(ILayout layout, ReportLevel reportLevel = ReportLevel.INFO)
+        public ConsoleAppender()
         {
-            Layout = layout;
-            ReportLevel = reportLevel;
+
         }
 
-        public ILayout Layout { get; set; }
+        public ILayout Layout { get; private set; }
 
-        public ReportLevel ReportLevel { get; set; }
+        public ReportLevel ReportLevel { get; private set; }
 
         public void AppendMessage(IMessage message)
         {
-            Console.WriteLine(string.Format(Layout.Format, message.Date, message.ReportLevel, message.Message));
+            DateLayout dateLayout = new DateLayout();
+
+            Console.WriteLine(string.Format(Layout.Format, 
+                message.Date.ToString(dateLayout.Format,CultureInfo.InvariantCulture), 
+                message.ReportLevel, message.Message));
+
             messagesCount++;
+        }
+
+        public void SetLayout(ILayout layout)
+        {
+            Layout = layout;
+        }
+
+        public void SetReportLevel(ReportLevel reportLevel)
+        {
+            ReportLevel = reportLevel;
         }
 
         public override string ToString()

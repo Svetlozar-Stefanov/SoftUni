@@ -8,6 +8,6 @@ namespace Logger.Contracts
 
         ulong Size { get; }
 
-        void Write(IMessage message, string layout);
+        string Write(IMessage message, string layout);
     }
 }

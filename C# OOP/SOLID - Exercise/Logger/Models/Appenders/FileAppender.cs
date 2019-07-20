@@ -10,27 +10,36 @@ namespace Logger.Models.Appenders
     {
         private int messagesCount = 0;
 
-        public FileAppender(ILayout layout, IFile file, ReportLevel reportLevel = ReportLevel.INFO)
+        public FileAppender()
         {
-            Layout = layout;
-            File = file;
-            ReportLevel = reportLevel;
+            FileType = new LogFile();
         }
 
-        public ILayout Layout { get; set; }
+        public ILayout Layout { get;private set; }
 
-        public IFile File { get; set; }
+        public IFile FileType { get; private set; }
 
-        public ReportLevel ReportLevel { get; set; }
+        public ReportLevel ReportLevel { get; private set; }
 
         public void AppendMessage(IMessage message)
         {
-            
+            File.AppendAllText(FileType.Path, FileType.Write(message, Layout.Format) + Environment.NewLine);
+            messagesCount++;
+        }
+
+        public void SetLayout(ILayout layout)
+        {
+            Layout = layout;
+        }
+
+        public void SetReportLevel(ReportLevel reportLevel)
+        {
+            ReportLevel = reportLevel;
         }
 
         public override string ToString()
         {
-            return $"Appender type: {GetType().Name}, Layout type: {Layout.GetType().Name}, Report level: {ReportLevel.ToString()}, Messages appended: {messagesCount}, File size {File.Size}";
+            return $"Appender type: {GetType().Name}, Layout type: {Layout.GetType().Name}, Report level: {ReportLevel.ToString()}, Messages appended: {messagesCount}, File size {FileType.Size}";
         }
     }
 }

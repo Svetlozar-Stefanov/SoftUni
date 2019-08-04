@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena.Tests\\FightingArena.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena.Tests\\FightingArena.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena.Tests\\FightingArena.Tests.csproj",
+        "projectName": "FightingArena.Tests",
+        "projectPath": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena.Tests\\FightingArena.Tests.csproj",
+        "packagesPath": "C:\\Users\\Svetlozar\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Svetlozar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\FightingArena.csproj": {
+                "projectPath": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\FightingArena.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\FightingArena.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\FightingArena.csproj",
+        "projectName": "FightingArena",
+        "projectPath": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\FightingArena.csproj",
+        "packagesPath": "C:\\Users\\Svetlozar\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\C# OOP\\UnitTesting-Exercise\\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\\FightingArena\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Svetlozar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

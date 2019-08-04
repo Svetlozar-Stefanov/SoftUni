@@ -1,0 +1,9 @@
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\bin\Debug\netcoreapp2.1\Service.deps.json
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\bin\Debug\netcoreapp2.1\Service.dll
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\bin\Debug\netcoreapp2.1\Service.pdb
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfo.cs
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.dll
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.pdb
+D:\Programming\C# OOP\UnitTesting-Exercise\11. CSharp-OOP-Unit-Testing-Exercises-Skeleton\Service\obj\Debug\netcoreapp2.1\Service.csprojAssemblyReference.cache

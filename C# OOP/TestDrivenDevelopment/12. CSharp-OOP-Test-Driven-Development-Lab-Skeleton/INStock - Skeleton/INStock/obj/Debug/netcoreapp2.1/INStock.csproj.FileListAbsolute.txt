@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\bin\Debug\netcoreapp2.1\INStock.deps.json
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\bin\Debug\netcoreapp2.1\INStock.runtimeconfig.json
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\bin\Debug\netcoreapp2.1\INStock.runtimeconfig.dev.json
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\bin\Debug\netcoreapp2.1\INStock.dll
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\bin\Debug\netcoreapp2.1\INStock.pdb
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.csprojAssemblyReference.cache
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.AssemblyInfo.cs
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.dll
+D:\Programming\C# OOP\TestDrivenDevelopment\12. CSharp-OOP-Test-Driven-Development-Lab-Skeleton\INStock - Skeleton\INStock\obj\Debug\netcoreapp2.1\INStock.pdb

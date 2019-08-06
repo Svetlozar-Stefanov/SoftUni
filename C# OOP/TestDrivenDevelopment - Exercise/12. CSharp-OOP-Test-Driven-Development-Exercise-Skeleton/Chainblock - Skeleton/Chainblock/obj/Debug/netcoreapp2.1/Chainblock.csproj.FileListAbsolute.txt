@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.deps.json
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.runtimeconfig.json
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.runtimeconfig.dev.json
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.dll
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\bin\Debug\netcoreapp2.1\Chainblock.pdb
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.csprojAssemblyReference.cache
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.AssemblyInfo.cs
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.dll
+D:\Programming\C# OOP\TestDrivenDevelopment - Exercise\12. CSharp-OOP-Test-Driven-Development-Exercise-Skeleton\Chainblock - Skeleton\Chainblock\obj\Debug\netcoreapp2.1\Chainblock.pdb

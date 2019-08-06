@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\bin\Debug\netcoreapp2.1\ParkingSystem.deps.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\bin\Debug\netcoreapp2.1\ParkingSystem.runtimeconfig.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\bin\Debug\netcoreapp2.1\ParkingSystem.runtimeconfig.dev.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\bin\Debug\netcoreapp2.1\ParkingSystem.dll
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\bin\Debug\netcoreapp2.1\ParkingSystem.pdb
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.csprojAssemblyReference.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.AssemblyInfo.cs
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.dll
+D:\Programming\C# OOP\Exam Preparation - 16 April\Unit-Tests-Skeleton\ParkingSystem\obj\Debug\netcoreapp2.1\ParkingSystem.pdb

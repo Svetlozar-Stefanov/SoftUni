@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.deps.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.dev.json
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.pdb
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.csprojAssemblyReference.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfo.cs
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+D:\Programming\C# OOP\Exam Preparation - 16 April\Structure-Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.pdb

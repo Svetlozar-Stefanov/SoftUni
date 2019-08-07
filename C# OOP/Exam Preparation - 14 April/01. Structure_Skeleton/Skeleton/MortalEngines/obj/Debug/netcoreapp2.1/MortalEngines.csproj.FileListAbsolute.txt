@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.csprojAssemblyReference.cache
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.AssemblyInfo.cs
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.deps.json
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.runtimeconfig.json
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.runtimeconfig.dev.json
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.dll
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.pdb
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.dll
+D:\Programming\C# OOP\Exam Preparation - 14 April\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.pdb

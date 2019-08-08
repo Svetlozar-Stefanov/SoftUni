@@ -26,7 +26,7 @@ namespace MXGP.Models.Motorcycles
             {
                 if (value < minRange || maxRange < value)
                 {
-                    throw new ArgumentException(string.Format(ExceptionMessages.InvalidHorsePower, value));
+                    throw new ArgumentException($"Invalid horse power: {value}.");
                 }
 
                 horsePower = value;

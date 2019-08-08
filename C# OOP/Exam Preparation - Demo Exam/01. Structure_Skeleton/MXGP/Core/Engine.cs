@@ -39,7 +39,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {
@@ -63,7 +63,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {
@@ -85,7 +85,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {
@@ -107,7 +107,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {
@@ -129,7 +129,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {
@@ -150,7 +150,7 @@ namespace MXGP.Core
                     }
                     catch (ArgumentNullException ex)
                     {
-                        writer.WriteLine(ex.ParamName);
+                        writer.WriteLine(ex.Message);
                     }
                     catch (InvalidOperationException ex)
                     {

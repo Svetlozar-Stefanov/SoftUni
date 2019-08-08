@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using MXGP.Models.Races.Contracts;
 using MXGP.Models.Riders.Contracts;
 using MXGP.Utilities.Messages;
@@ -29,7 +30,7 @@ namespace MXGP.Models.Races
             {
                 if (string.IsNullOrEmpty(value) || value.Length < 5)
                 {
-                    throw new ArgumentException(string.Format(ExceptionMessages.InvalidName, value, 5));
+                    throw new ArgumentException($"Name {value} cannot be less than 5 symbols.");
                 }
 
                 name = value;
@@ -46,7 +47,7 @@ namespace MXGP.Models.Races
             {
                 if (value < 1)
                 {
-                    throw new ArgumentException(string.Format(ExceptionMessages.InvalidNumberOfLaps, 1));
+                    throw new ArgumentException("Laps cannot be less than 1.");
                 }
 
                 laps = value;
@@ -59,15 +60,15 @@ namespace MXGP.Models.Races
         {
             if (rider == null)
             {
-                throw new ArgumentNullException(ExceptionMessages.RiderInvalid);
+                throw new ArgumentNullException(nameof(rider), "Rider cannot be null.");
             }
             if (!rider.CanParticipate)
             {
-                throw new ArgumentException(string.Format(ExceptionMessages.RiderNotParticipate, rider.Name));
+                throw new ArgumentException($"Rider {rider.Name} could not participate in race.");
             }
-            if (riders.Contains(rider))
+            if (riders.Any(r => r.Name == rider.Name))
             {
-                throw new ArgumentNullException($"Rider {rider.Name} is already added in {Name} race");
+                throw new ArgumentNullException(nameof(rider) , $"Rider {rider.Name} is already added in {Name} race.");
             }
 
             riders.Add(rider);

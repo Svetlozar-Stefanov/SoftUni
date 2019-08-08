@@ -27,7 +27,7 @@ namespace MXGP.Models.Riders
             {
                 if (string.IsNullOrEmpty(value) || value.Length < 5)
                 {
-                    throw new ArgumentException(string.Format(ExceptionMessages.InvalidName, value, 5));
+                    throw new ArgumentException($"Name {value} cannot be less than 5 symbols.");
                 }
 
                 name = value;
@@ -44,7 +44,7 @@ namespace MXGP.Models.Riders
         {
             if (motorcycle == null)
             {
-                throw new ArgumentNullException(ExceptionMessages.MotorcycleInvalid);
+                throw new ArgumentNullException(nameof(motorcycle), "Motorcycle cannot be null.");
             }
 
             Motorcycle = motorcycle;

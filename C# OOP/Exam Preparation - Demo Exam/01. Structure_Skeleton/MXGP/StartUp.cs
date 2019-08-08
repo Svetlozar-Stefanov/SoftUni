@@ -6,9 +6,9 @@ namespace MXGP
     {
         public static void Main(string[] args)
         {
-            Engine engine = new Engine();
+            //Engine engine = new Engine();
 
-            engine.Run();
+            //engine.Run();
         }
     }
 }

@@ -18,7 +18,7 @@
                
         public const string RiderNotParticipate = "Rider {0} could not participate in race.";
             
-        public const string RiderInvalid = "Racer cannot be null.";
+        public const string RiderInvalid = "Rider cannot be null.";
            
         public const string MotorcycleExists = "Motorcycle {0} is already create.";
        

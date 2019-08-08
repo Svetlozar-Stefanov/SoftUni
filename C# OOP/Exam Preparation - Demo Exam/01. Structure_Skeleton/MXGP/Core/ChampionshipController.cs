@@ -7,11 +7,9 @@ using MXGP.Models.Riders;
 using MXGP.Models.Riders.Contracts;
 using MXGP.Repositories;
 using MXGP.Repositories.Contracts;
-using MXGP.Utilities.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 
 namespace MXGP.Core
@@ -32,113 +30,121 @@ namespace MXGP.Core
 
         public string AddMotorcycleToRider(string riderName, string motorcycleModel)
         {
-            if (!riders.GetAll().Any(r => r.Name == riderName))
-            {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RiderNotFound, riderName));
-            }
-
-            if (!motors.GetAll().Any(r => r.Model == motorcycleModel))
-            {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.MotorcycleNotFound, motorcycleModel));
-            }
-
             IRider rider = riders.GetByName(riderName);
             IMotorcycle motorcycle = motors.GetByName(motorcycleModel);
 
+
+            if (rider == null)
+            {
+                throw new InvalidOperationException($"Rider {riderName} could not be found.");
+            }
+
+            if (motorcycle == null)
+            {
+                throw new InvalidOperationException($"Motorcycle {motorcycleModel} could not be found.");
+            }
+
             rider.AddMotorcycle(motorcycle);
 
-            return string.Format(OutputMessages.MotorcycleAdded, rider.Name, motorcycle.Model);
+            return $"Rider {riderName} received motorcycle {motorcycleModel}.";
         }
 
         public string AddRiderToRace(string raceName, string riderName)
         {
-            if (!races.GetAll().Any(r => r.Name == raceName))
-            {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RaceNotFound, raceName));
-            }
-
-            if (!riders.GetAll().Any(r => r.Name == riderName))
-            {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RiderNotFound, riderName));
-            }
-
             IRace race = races.GetByName(raceName);
             IRider rider = riders.GetByName(riderName);
 
+            if (race == null)
+            {
+                throw new InvalidOperationException($"Race {raceName} could not be found.");
+            }
+
+            if (rider == null)
+            {
+                throw new InvalidOperationException($"Rider {riderName} could not be found.");
+            }
+
             race.AddRider(rider);
 
-            return string.Format(OutputMessages.RiderAdded, rider.Name, race.Name);
+            return $"Rider {riderName} added in {raceName} race.";
         }
 
         public string CreateMotorcycle(string type, string model, int horsePower)
         {
-            if (motors.GetAll().Any(m => m.Model == model))
+            IMotorcycle motorcycle = motors.GetByName(model);
+
+            if (motorcycle != null)
             {
-                throw new ArgumentException(string.Format(ExceptionMessages.MotorcycleExists, model));
+                throw new ArgumentException($"Motorcycle {model} is already created.");
             }
 
-            IMotorcycle motorcycle = null;
-
-            if (type == "SpeedMotorcycle")
+            if (type == "Speed")
             {
                 motorcycle = new SpeedMotorcycle(model, horsePower);
             }
-            else if (type == "PowerMotorcycle")
+            else if (type == "Power")
             {
                 motorcycle = new PowerMotorcycle(model, horsePower);
             }
 
             motors.Add(motorcycle);
 
-            return string.Format(OutputMessages.MotorcycleCreated, motorcycle.GetType().Name, motorcycle.Model);
+            return $"{motorcycle.GetType().Name} {model} is created.";
         }
 
         public string CreateRace(string name, int laps)
         {
-            if (races.GetAll().Any(r => r.Name == name))
+            IRace race = races.GetByName(name);
+
+            if (race != null)
             {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RaceExists, name));
+                throw new InvalidOperationException($"Race {name} is already created.");
             }
 
-            IRace race = new Race(name, laps);
+            race = new Race(name, laps);
             races.Add(race);
 
-            return string.Format(OutputMessages.RaceCreated, race.Name);
+            return $"Race {name} is created.";
         }
 
         public string CreateRider(string riderName)
         {
-            if (riders.GetAll().Any(r => r.Name == riderName))
+            IRider rider = riders.GetByName(riderName);
+
+            if (rider != null)
             {
-                throw new ArgumentException(string.Format(ExceptionMessages.RiderExists, riderName));
+                throw new ArgumentException($"Rider {riderName} is already created.");
             }
 
-            Rider rider = new Rider(riderName);
+            rider = new Rider(riderName);
             riders.Add(rider);
 
-            return string.Format(OutputMessages.RiderCreated, rider.Name);
+            return $"Rider {riderName} is created.";
         }
 
         public string StartRace(string raceName)
         {
-            if (!races.GetAll().Any(r => r.Name == raceName))
+            IRace race = races.GetByName(raceName);
+
+            if (race == null)
             {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RaceNotFound, raceName));
+                throw new InvalidOperationException($"Race {raceName} could not be found.");
             }
-            if (races.GetAll().FirstOrDefault(r => r.Name == raceName).Riders.Count < 3)
+            if (race.Riders.Count < 3)
             {
-                throw new InvalidOperationException(string.Format(ExceptionMessages.RaceInvalid, raceName, 3));
+                throw new InvalidOperationException($"Race {raceName} cannot start with less than 3 participants.");
             }
 
-            IRace race = races.GetByName(raceName);
-            List<IRider> winnners = race.Riders.OrderByDescending(r => r.Motorcycle.CalculateRacePoints(race.Laps)).ToList();
+            List<IRider> winnners = race.Riders
+                .OrderByDescending(r => r.Motorcycle.CalculateRacePoints(race.Laps))
+                .Take(3)
+                .ToList();
              
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine(string.Format(OutputMessages.RiderFirstPosition, winnners[0].Name, race.Name));
-            winnners[0].WinRace();
-            sb.AppendLine(string.Format(OutputMessages.RiderSecondPosition, winnners[1].Name, race.Name));
-            sb.AppendLine(string.Format(OutputMessages.RiderThirdPosition, winnners[2].Name, race.Name));
+            sb.AppendLine($"Rider {winnners[0].Name} wins {raceName} race.");
+            sb.AppendLine($"Rider {winnners[1].Name} is second in {raceName} race.");
+            sb.AppendLine($"Rider {winnners[2].Name} is third in {raceName} race.");
 
             races.Remove(race);
 

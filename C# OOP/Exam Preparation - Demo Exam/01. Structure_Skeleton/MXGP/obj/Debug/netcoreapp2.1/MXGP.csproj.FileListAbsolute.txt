@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.csprojAssemblyReference.cache
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.AssemblyInfo.cs
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.deps.json
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.runtimeconfig.json
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.runtimeconfig.dev.json
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.dll
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.pdb
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.dll
+D:\Programming\C# OOP\Exam Preparation - Demo Exam\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.pdb

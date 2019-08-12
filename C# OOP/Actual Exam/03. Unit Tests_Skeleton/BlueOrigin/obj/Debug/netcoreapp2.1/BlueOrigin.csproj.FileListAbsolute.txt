@@ -1,0 +1,11 @@
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.deps.json
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.runtimeconfig.json
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.runtimeconfig.dev.json
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.dll
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.pdb
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.csprojAssemblyReference.cache
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.csproj.CoreCompileInputs.cache
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.AssemblyInfoInputs.cache
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.AssemblyInfo.cs
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.dll
+D:\Programming\C# OOP\Actual Exam\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.pdb

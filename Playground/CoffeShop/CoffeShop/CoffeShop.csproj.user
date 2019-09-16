@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</Source>
+    <SmallTileSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</SmallTileSource>
+    <MediumTileSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</MediumTileSource>
+    <WideTileSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</WideTileSource>
+    <LargeTileSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</LargeTileSource>
+    <AppIconSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</AppIconSource>
+    <SplashScreenSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</SplashScreenSource>
+    <PackageLogoSource>D:\Programming\Playground\CoffeShop\CoffeShop\Assets\coffeeCup.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

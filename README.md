@@ -1,2 +1,2 @@
 # SoftUni-Homeworks
-All the tasks I have solved and solve while in SoftUni
+All the problems I have solved and solve while in SoftUni

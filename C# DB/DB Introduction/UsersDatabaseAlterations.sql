@@ -1,0 +1,34 @@
+USE PersonalInfo;
+
+ALTER TABLE Users
+DROP CONSTRAINT [PK__Users__3214EC078196536A];
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_IdUsernameComposite
+PRIMARY KEY (Id,Username);
+
+ALTER TABLE Users
+ADD CONSTRAINT CHK_PasswordLength CHECK (LEN([Password]) >=  5);
+
+--INSERT INTO Users
+--VALUES
+--('Bob', '1234', NULL, '05.25.2002', 0)
+
+ALTER TABLE Users
+ADD CONSTRAINT DF_LastLoginDate
+DEFAULT GETDATE() FOR LastLoginTime;
+
+ALTER TABLE Users
+DROP CONSTRAINT PK_IdUsernameComposite;
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_Id
+PRIMARY KEY (Id);
+
+ALTER TABLE Users
+ADD CONSTRAINT UC_Username
+UNIQUE (Username);
+
+ALTER TABLE Users
+ADD CONSTRAINT CHK_UsernameLength
+CHECK (LEN(Username) >= 3);
